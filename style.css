@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+body {
+  font-family: roboto;
+}
+
+/* h2 {
+  color: aquamarine;
+} */
+
+body,
+html {
+  height: 100%;
+}
+
+@media (max-width: 575px) {
+  .fixed-top-xs {
+    position: relative;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin-left: 50px;
+  margin-top: 80px;
+}
+
+a {
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px solid black;
+}
+
+a :hover {
+  background-color: black;
+  color: white;
+}
