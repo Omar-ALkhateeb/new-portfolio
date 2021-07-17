@@ -17,6 +17,16 @@ html {
   .fixed-top-xs {
     position: relative;
   }
+  body {
+    margin-left: 0 !important;
+    margin-top: 20px !important;
+  }
+  #left {
+    height: 600px !important;
+    background-position: left top;
+    background-size: cover;
+    margin-bottom: 30px;
+  }
 }
 
 * {
