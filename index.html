@@ -23,11 +23,11 @@
   </head>
   <body>
     <div class="container-fluid h-100">
-      <div class="row h-100">
+      <div class="row">
         <!-- 1st half -->
         <div
           style="
-            background: url(/img/bg.jpg) center;
+            background: url(./img/bg2.jpg) center;
             background-position: left top;
             background-size: cover;
           "
@@ -36,9 +36,8 @@
             h-100
             py-2
             d-flex
-            align-items-center
-            justify-content-center
             fixed-top fixed-top-xs
+            glitch-img
           "
           id="left"
         >
@@ -49,9 +48,9 @@
         </div>
 
         <!-- 2nd half -->
-        <div class="col-sm-8 col-12 offset-sm-4 py-2">
+        <div class="col-sm-8 col-12 offset-sm-4 py-4">
           <!--Second half content here (scrollable col)-->
-          <div>
+          <div id="right">
             <h2>
               Omar-ALkhateeb<a href="mailto:omar.alkhateeb9919@gmail.com">
                 &lt;omar.alkhateeb9919@gmail.com&gt;</a
@@ -64,10 +63,12 @@
             </p>
             <h3>about:</h3>
             <p>Jack of all trades master of none</p>
-            <h3>
-              my CV:<br /><br /><a href="/omar-nabeel.pdf">download</a
-              ><small> - might be a bit outdated..</small>
-            </h3>
+            <h3>my CV:</h3>
+            <p>
+              <a href="./omar-nabeel.pdf">download</a> - might be a bit
+              outdated..
+            </p>
+            <br />
             <h3>my repos and contributions:</h3>
             <ul id="repos">
               <li id="load">loading...</li>
@@ -87,6 +88,8 @@
         </div>
       </div>
     </div>
+    <!-- <audio autoplay="true" src="./Spider.mp3"> -->
+    <embed src="./Spider.mp3" loop="true" autostart="true" hidden="true" />
 
     <!-- js libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -95,7 +98,8 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/gh/hmongouachon/mgGlitch/src/mgGlitch.min.js"></script>
 
-    <script src="/index.js"></script>
+    <script src="./index.js"></script>
   </body>
 </html>
