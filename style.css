@@ -63,8 +63,7 @@ li {
 
 /* text glitch effect */
 
-h2,
-h3 {
+h2 {
   -webkit-animation: cray 6s infinite steps(50);
   animation: cray 6s infinite steps(50);
   display: inline-block;
