@@ -29,7 +29,7 @@ $(function () {
             $("#load").hide();
             for (let repo of res) {
                 console.log(repo)
-                $("#repos").append(`<li><a href="${repo['git_url']}">${repo['name']}</a></li>`);
+                $("#repos").append(`<li><a href="${repo['clone_url']}">${repo['name']}</a></li>`);
             }
         }
     });
